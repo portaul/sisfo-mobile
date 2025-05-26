@@ -112,7 +112,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        'SISFOAAS',
+                        'Sarpras',
                         style: Theme.of(
                           context,
                         ).textTheme.headlineMedium?.copyWith(
@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'Sistem Informasi Alat dan Aset',
+                        'Sistem Informasi Sarpras',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           color: Colors.grey[600],
                         ),
