@@ -217,7 +217,7 @@ class _HomePageState extends State<HomePage> {
                     context,
                     icon: Icons.assignment_outlined,
                     title: 'Peminjaman',
-                    subtitle: 'Kelola peminjaman',
+                    subtitle: 'Form Peminjaman',
                     color: Colors.green,
                     onTap: () {
                       // Navigate to peminjaman page
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                     context,
                     icon: Icons.assignment_return_outlined,
                     title: 'Pengembalian',
-                    subtitle: 'Kelola pengembalian',
+                    subtitle: 'Form pengembalian',
                     color: Colors.orange,
                     onTap: () {
                       // Navigate to pengembalian page
