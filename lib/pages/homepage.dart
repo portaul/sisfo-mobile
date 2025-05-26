@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../service/authservice.dart';
 import 'loginpage.dart';
 import 'view/barangview.dart';
+import 'view/peminjamanview.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -220,12 +221,10 @@ class _HomePageState extends State<HomePage> {
                     subtitle: 'Form Peminjaman',
                     color: Colors.green,
                     onTap: () {
-                      // Navigate to peminjaman page
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text(
-                            'Fitur Peminjaman akan segera tersedia',
-                          ),
+                      // Navigate to peminjaman form
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => const PeminjamanFormView(),
                         ),
                       );
                     },
